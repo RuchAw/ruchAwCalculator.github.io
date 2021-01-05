@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.core {
+    background-color: #888;
+    height: 590px;
+    width: cover;
+    border-radius: 12px 12px 24px 24px;
+    padding: 1px 10px;
+    width: 325px;
+    margin: 0 auto;
+    box-shadow: 4px 2px 4px #444, inset -3px -2px 5px rgba(255, 255, 255, 0.486);
+}
+
+.topPart {
+    background-color: #666;
+    height: 200px;
+    border-radius: 0px 0px 50px 50px;
+    border-bottom: #555 5px solid;
+    padding: 5px;
+}
+
+.centerButton {
+    width: 33%;
+    height: 85px;
+    border-radius: 40% 40% 50% 50%;
+    background-color: rgb(217, 226, 235);
+    position: relative;
+    margin: 0 auto;
+    top: -33px;
+    border: 4px #888 solid;
+    box-shadow: inset -1px -3px 2px #444;
+    color: #000;
+    font-weight: bold;
+    color: rgba(167, 176, 184, 0.616);
+    padding: 5px;
+    padding-top: 8px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+.subTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.screen {
+    width: 96%;
+    height: 85px;
+    background-color: rgb(201, 209, 171);
+    margin: 0 auto;
+    box-shadow: inset 4px 4px 3px #444;
+    border-radius: 1px;
+    font-family: Calculus;
+    padding: 2px 4px;
+    text-shadow: 3px 4px 3px grey;
+}
+
+.upScreen {
+    text-align: right;
+    font-size: 0.75rem;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: flex-end;
+}
+
+.fade {
+    margin: 0;
+    flex-basis: 20%;
+    opacity: 0.2;
+}
+
+.active {
+    opacity: 1;
+}
+
+.calculs {
+    text-align: left;
+    padding-left: 7px;
+    font-size: 1.6rem;
+    height: 30.91px;
+}
+
+.results {
+    text-align: right;
+    padding-right: 5px;
+    font-size: 2rem;
+    height: 30.91px;
+}
+
+.buttonsPad {
+    height: 475px;
+    width: 100%;
+    position: relative;
+    top: -82px;
+    border: red solid 0px;
+}
+
+.upper {
+    width: 95%;
+    border: 0px blue solid;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 2px;
+}
+
+.button {
+    height: 20px;
+    width: 37px;
+    border-radius: 35%;
+    background-color: rgb(217, 226, 235);
+    display: inline-block;
+    margin: 0 2px;
+    box-shadow: 3px 2px 2px #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.subButton {
+    position: relative;
+    display: inline-block;
+    top: -23px;
+    font-size: 0.66rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.shift {
+    color: rgb(207, 207, 30);
+}
+
+.alpha {
+    color: rgb(210, 153, 218);
+}
+
+.on {
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+}
+
+.black {
+    border-radius: 5px;
+    width: 40px;
+    background-color: rgb(59, 58, 58);
+    box-shadow: 3px 2px 2px #666, inset 2px 1px 2px rgba(128, 128, 128, 0.678);
+    margin: 0 4px;
+}
+
+.buttonText {
+    font-size: 0.71rem;
+    color: white;
+    display: inline;
+    position: relative;
+    top: -33px;
+}
+
+.med {
+    font-size: 0.75rem;
+}
+
+.middlePart {
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+
+.blackRow {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.right,
+.left {
+    display: flex;
+    flex-direction: row nowrap;
+    margin-bottom: 15px;
+}
+
+.small {
+    font-size: 0.64rem;
+}
+
+.grey {
+    color: white;
+    border-radius: 6px 6px 9px 9px;
+    width: 46px;
+    height: 33px;
+    background-color: rgb(169, 173, 177);
+    box-shadow: 3px 2px 2px #666, inset 2px 1px 2px rgba(224, 224, 224, 0.678);
+    margin: 0 4px;
+}
+
+.greyRow {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.bottomPart {
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+
+.pink {
+    background-color: rgb(213, 106, 122);
+}
+
+.greyRow .buttonText {
+    display: block;
+    font-size: 1.55rem;
+    position: relative;
+    top: -53px;
+}
+
+.pink .buttonText {
+    font-size: 1.2rem;
+    position: relative;
+    top: -45px;
+}
+
+.grey .bot {
+    font-size: 1.2rem;
+    position: relative;
+    top: -45px;
+}
+
+.middleArrows {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+}
+
+.replay {
+    font-size: 0.66rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.button:active {
+    background-color: white;
+}

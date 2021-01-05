@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="core">
+            <div class="topPart">
+                <div class="title">CASIO</div>
+                <div class="subTitle">S.V.P.A.M</div>
+                <div class="screen">
+                    <div class="upScreen">
+                        <p class="fade">SHIFT</p>
+                        <p class="fade">ALPHA</p>
+                        <p class="fade active">MATH</p>
+                    </div>
+                    <div class="calculs">0</div>
+                    <div class="results">0</div>
+                </div>
+            </div>
+            <div class="centerButton">
+                <div class="upArrow">↑</div>
+                <div class="middleArrows">
+                    <div class="leftArrow">←</div>
+                    <div class="replay">REPLAY</div>
+                    <div class="rightArrow">→</div>
+                </div>
+                <div class="downArrow">↓</div>
+            </div>
+
+            <div class="buttonsPad">
+                <div class="upper">
+                    <div>
+                        <div class="button">
+                            <p class="subButton shift">SHIFT</p>
+                        </div>
+                        <div class="button">
+                            <p class="subButton alpha">ALPHA</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="button">
+                            <p class="subButton shift">CLR</p>
+
+                        </div>
+                        <div class="button">
+                            <p class="subButton on">ON</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="upper">
+                    <div class="left">
+                        <div class="button black">
+                            <p class="subButton shift">SOLVE</p><br>
+                            <p class="buttonText">CALC</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift">d/dx</p><br>
+                            <p class="buttonText med">∫ dx</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="button black">
+                            <p class="subButton shift"><i>x!</i></p><br>
+                            <p class="buttonText med">x<sup>-1</sup></p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift">CONV</p><br>
+                            <p class="buttonText">CNST</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="middlePart">
+
+                    <div class="blackRow">
+                        <div class="button black">
+                            <p class="subButton shift">d/c</p><br>
+                            <p class="buttonText">a.<sup>b</sup>/<sub>c</sub></p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton small shift"><sup>3</sup>√</p><br>
+                            <p class="buttonText">√</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton small shift">x<sup>3</sup></p><br>
+                            <p class="buttonText">x<sup>2</sup></p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift"><sup>x</sup>√</p><br>
+                            <p class="buttonText med">^</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton small shift">10<sup>x</sup></p><br>
+                            <p class="buttonText">log</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton small shift">e<sup>x</sup></p><br>
+                            <p class="buttonText">ln</p>
+                        </div>
+                    </div>
+
+                    <div class="blackRow">
+                        <div class="button black">
+                            <p class="subButton alpha">A</p><br>
+                            <p class="buttonText med">( – )</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton alpha">B</p><br>
+                            <p class="buttonText">MC</p><br>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton alpha">C</p><br>
+                            <p class="buttonText">hyp</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift small">sin<sup>-1</sup></p><br>
+                            <p class="buttonText">sin</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift small">cos<sup>-1</sup></p><br>
+                            <p class="buttonText">cos</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift small">tan<sup>-1</sup></p><br>
+                            <p class="buttonText">tan</p>
+                        </div>
+                    </div>
+
+                    <div class="blackRow">
+                        <div class="button black">
+                            <p class="subButton shift">STO</p><br>
+                            <p class="buttonText">RCL</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift">←</p><br>
+                            <p class="buttonText">ENG</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton shift">arg</p><br>
+                            <p class="buttonText">(</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton alpha">X</p><br>
+                            <p class="buttonText">)</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton alpha">Y</p><br>
+                            <p class="buttonText">Conj</p>
+                        </div>
+                        <div class="button black">
+                            <p class="subButton alpha">M</p><br>
+                            <p class="buttonText">M+</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottomPart">
+                    <div class="greyRow">
+                        <div class="button grey">
+                            <p class="subButton shift">M</p><br>
+                            <p class="buttonText">7</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">G</p><br>
+                            <p class="buttonText">8</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">T</p><br>
+                            <p class="buttonText">9</p>
+                        </div>
+                        <div class="button grey pink">
+                            <p class="subButton shift">INS</p><br>
+                            <p class="buttonText">DEL</p>
+                        </div>
+                        <div class="button grey pink">
+                            <p class="subButton shift">OFF</p><br>
+                            <p class="buttonText">AC</p>
+                        </div>
+                    </div>
+
+                    <div class="greyRow">
+                        <div class="button grey">
+                            <p class="subButton shift">MAT</p><br>
+                            <p class="buttonText">4</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">VCT</p><br>
+                            <p class="buttonText">5</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">k</p><br>
+                            <p class="buttonText">6</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">nPr</p><br>
+                            <p class="buttonText">×</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">nCr</p><br>
+                            <p class="buttonText">÷</p>
+                        </div>
+                    </div>
+
+                    <div class="greyRow">
+                        <div class="button grey">
+                            <p class="subButton shift">S-SUM</p><br>
+                            <p class="buttonText">1</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">S-VAR</p><br>
+                            <p class="buttonText">2</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">DISTR</p><br>
+                            <p class="buttonText">3</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">POL</p><br>
+                            <p class="buttonText">+</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">REC</p><br>
+                            <p class="buttonText">−</p>
+                        </div>
+                    </div>
+
+                    <div class="greyRow">
+                        <div class="button grey">
+                            <p class="subButton shift">Rnd</p><br>
+                            <p class="buttonText">0</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">Ran</p><br>
+                            <p class="buttonText">.</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">π</p><br>
+                            <p class="buttonText bot">EXP</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">DRG►</p><br>
+                            <p class="buttonText bot">Ans</p>
+                        </div>
+                        <div class="button grey">
+                            <p class="subButton shift">%</p><br>
+                            <p class="buttonText">=</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bottom"></div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+
+
+
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
